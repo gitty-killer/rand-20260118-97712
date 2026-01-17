@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "patch-01",
+      "name": "patch_01",
+      "category": "linux",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "patch-02",
+      "name": "patch_02",
+      "category": "windows",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "patch-03",
+      "name": "patch_03",
+      "category": "network",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "patch-04",
+      "name": "patch_04",
+      "category": "container",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "patch-05",
+      "name": "patch_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "patch-06",
+      "name": "patch_06",
+      "category": "windows",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "patch-07",
+      "name": "patch_07",
+      "category": "network",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "patch-08",
+      "name": "patch_08",
+      "category": "container",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "patch-09",
+      "name": "patch_09",
+      "category": "linux",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "patch-10",
+      "name": "patch_10",
+      "category": "windows",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "patch-11",
+      "name": "patch_11",
+      "category": "network",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "patch-12",
+      "name": "patch_12",
+      "category": "container",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "patch-12",
+    "issue_count": 1
+  }
+}

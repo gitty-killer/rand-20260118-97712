@@ -1,0 +1,13 @@
+{
+  "project_title": "Security Patch Rollout",
+  "goal": "Track patch deployment and identify vulnerable nodes.",
+  "entity_name": "patch",
+  "amount_label": "hosts",
+  "score_label": "coverage_score",
+  "categories": [
+    "linux",
+    "windows",
+    "network",
+    "container"
+  ]
+}
